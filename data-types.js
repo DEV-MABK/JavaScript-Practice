@@ -8,7 +8,7 @@
 // String
 // Anything inside '', "", or `` is a string
 
-const Name = "AbuBakar";
+const firstname = "AbuBakar";
 let name = `Mahnoor`;
 let friend = 'Ahmad';
 
