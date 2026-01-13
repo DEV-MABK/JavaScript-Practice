@@ -1,3 +1,8 @@
+/**
+ * JavaScript Var, Let, Const
+ * Author: AbuBakar Imtiaz
+ */
+
 // var, let, const are keywords used to declare variables
 // var & let can be reassigned, const cannot
 
