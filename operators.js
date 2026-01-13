@@ -1,3 +1,9 @@
+/**
+ * JavaScript Operators
+ * Author: AbuBakar Imtiaz
+ */
+
+
 // There are many types of operators
 // 1. Arithmetic operators
 // 2. Comparison operators
