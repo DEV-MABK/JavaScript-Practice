@@ -1,5 +1,5 @@
 /**
- * JavaScript Control Flow
+ * JavaScript Data Types
  * Author: AbuBakar Imtiaz
  */
 
