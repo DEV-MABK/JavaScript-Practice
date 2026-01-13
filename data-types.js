@@ -1,3 +1,7 @@
+/**
+ * JavaScript Control Flow
+ * Author: AbuBakar Imtiaz
+ */
 
 // There are two categories of data types
 // 1. Primitive
