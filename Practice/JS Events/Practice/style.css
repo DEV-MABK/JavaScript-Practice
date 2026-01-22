@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #1e1e1e;
+    color: #fff;
+    padding: 20px;
+}
+
+/* PAGE LAYOUT */
+.container {
+    display: flex;
+    gap: 30px;
+}
+
+/* FORM */
+.form-box {
+    width: 180px;
+}
+
+.form-box input,
+.form-box button {
+    width: 100%;
+    margin-bottom: 6px;
+    padding: 5px;
+    font-size: 12px;
+}
+
+.form-box input {
+    background: #fff;
+    border: none;
+    outline: none;
+}
+
+.form-box button {
+    background: #e5e5e5;
+    border: none;
+    cursor: pointer;
+}
+
+/* CARDS AREA */
+.cards {
+    flex: 1;
+}
+
+/* CARD */
+.card {
+    width: 260px;
+    background: #1f1f1f;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 0 0 1px #333;
+}
+
+.card img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.card h3 {
+    font-size: 16px;
+}
+
+.card span {
+    font-size: 12px;
+    color: #aaa;
+}
+
+.card p {
+    font-size: 12px;
+    margin-top: 8px;
+    color: #ccc;
+}
+
+#input {
+    display: none;
+}
+#btn {
+    padding: 8px 16px;         
+    background-color: cadetblue;
+    border: none;
+    border-radius: 20px;        
+    color: aliceblue;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 3px;
+    font-size: 13px;
+    margin-bottom: 8px;
+}
+#btn:hover {
+    background-color: #4a7a7a;
+}

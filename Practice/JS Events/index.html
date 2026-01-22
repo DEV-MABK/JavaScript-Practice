@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Practice</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        input {
+            display: none;
+        }
+        #btn {
+            padding: 12px 22px;
+            background-color: cadetblue;
+            border: none;
+            border-radius: 30px;
+            color: aliceblue;
+            cursor: pointer;
+            display: inline-block;
+            margin-top: 5px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1 id="Device">Select Your Device</h1>
+    <select>
+        <option selected disabled value="sumsung">Choose Your Device</option>
+        <option value="Sumsung">Sumsung</option>
+        <option value="Oppo">Oppo</option>
+        <option value="Apple">Iphone</option>
+        <option value="Mi">Xaiomi</option>
+    </select>
+    <div id="main">
+        <input id="input" type="file">
+        <div id="btn">
+            Upload File
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
